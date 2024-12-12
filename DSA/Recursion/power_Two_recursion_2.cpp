@@ -13,5 +13,4 @@ int main(){
     cin >> n;
     cout << power(n)<<endl;
     return 0;
-    
 }

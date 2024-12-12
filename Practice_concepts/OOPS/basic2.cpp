@@ -5,10 +5,12 @@ class addition
 {
     int a,b,c;
     public:
-    void getdata();
+    void getdata();  // Declaring the functions inside the class using outside the class
     void putdata();
 
 };
+
+//used the functions outside the class using scope resolution operator
 
 void addition :: getdata(){
     cout << "Enter three numbers followed by a space:";

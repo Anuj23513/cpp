@@ -12,7 +12,7 @@ int main(){
 
     cout << &x << endl; // Prints the memory address of x
     int * xptr= &x;  //Declaring and assigning the address of a variable x in pointer variable *xptr
-    cout << xptr<<endl;
+    cout << xptr<<endl;  //Display the address
 
     cout << &y << endl;//Prints the memory address of y
     int *yptr;      //Declare y pointer first

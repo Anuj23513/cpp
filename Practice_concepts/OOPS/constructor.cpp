@@ -7,7 +7,7 @@ class Student {
     double fee;
 
     public:
-        Student() {
+        Student() {    // Constructor is a member function that invoked when the object of the class is created and its name is same as the class name
             cout << "Enter the RollNo: ";
             cin >> rollNo;
             cout << "Enter the Name: ";
