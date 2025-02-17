@@ -5,7 +5,7 @@ class Node{
     public:
         int data;
         Node * Next;
-    Node(int data){  // Constructor doesn't have any return type
+        Node(int data){  // Constructor doesn't have any return type
         this -> data=data;
         this -> Next=NULL;
     }
